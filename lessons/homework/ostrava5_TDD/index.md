@@ -4,7 +4,7 @@
 
 Poté, co ses naučila pracovat s [řetězci][str] a psát [vlastní funkce][def], dostala jsi za [úkol][handout5] naprogramovat si jednoduchou hru: jednorozměrné piškvorky. Zatím máš předepsané, z jakých dílčích funkcí se bude hra skládat. Toho využijeme a nahlédneme do pokročilejší lekce – té o [testování][testing].
 
-[Testování][testing] ti pomůže ověřit, že tvůj program funguje, jak má. Neboj se však nic, všechno to složitější jsme zatím napsali za tebe. Ty tak můžeš postupovat podle [zadání][handout5] domácích projektů a testy ti spuštěním jednoho jednoduchého příkazu ukážou, jak moc blízko jsi dokončení programu.
+Testování ti pomůže ověřit, že tvůj program funguje, jak má. Neboj se však nic, všechno to složitější jsme zatím napsali za tebe. Ty tak můžeš postupovat podle zadání domácích projektů a testy ti spuštěním jednoho jednoduchého příkazu ukážou, jak moc blízko jsi dokončení programu.
 
 Toto je bonusový materiál, který může udělat domácí úkol zajímavější a naučit tě při tom opět něco nového. Pokud máš ale plné ruce práce se zvládání aktuální látky. klidně postupuj jen podle zadání domácích projektů a na testování se společně podíváme později.
 
@@ -12,7 +12,7 @@ Toto je bonusový materiál, který může udělat domácí úkol zajímavějš�
 
 1. Stáhni si připravený soubor pro [piškvorky][piskvorky] a [soubor s testy][testpiskvorky] a ulož je do samostatné složky.
 
-    V souboru [*test_piskvorky.py*][testpiskvorky] máš připravené testy. Nic v něm neměň, ale můžeš se do něj podívat. Samotnou hru pak piš do připraveného souboru [_piskvorky.py_][piskvorky]. Máš tam nachystané všechny potřebné funkce, jen zatím nic nedělají. Až je všechny doplníš, budeš mít funkční hru.
+    V souboru *test_piskvorky.py* máš připravené testy. Nic v něm neměň, ale můžeš se do něj podívat. Samotnou hru pak piš do připraveného souboru _piskvorky.py_. Máš tam nachystané všechny potřebné funkce, jen zatím nic nedělají. Až je všechny doplníš, budeš mít funkční hru.
 
 1. Aktivuj si své virtuální prostředí. Jak na to jsme si ukázali [na začátku kurzu][venvsetup].
 1. Nainstaluj si knihovnu [pytest] podle [návodu][testing] v materiálech. Právě ta ti umožní ověřit správnou funkčnost programu.
@@ -21,7 +21,7 @@ Toto je bonusový materiál, který může udělat domácí úkol zajímavějš�
     (venv) $ pip install pytest
     ```
 
-1. Opět podle [návodu][testing] pytest spusť.
+1. Opět podle návodu pytest spusť.
 
     ```shell
     (venv) $ pytest -v test_piskvorky.py
@@ -72,7 +72,7 @@ Tyto věci musíš ověřit ručně. To by ale nemuselo být tak hrozné: progra
 
 Snad ti tato zkušenost ukázala, že automatické testování ti může ušetřit čas a práci. Že díky testům si můžeš být jistá, že jsi úpravou programu nerozbila nic, co před tím fungovalo.
 
-Nahlédni do souboru [*test_piskvorky.py*][testpiskvorky]. Možná teď ještě nebudeš rozumět do detailu, jak to všechno vlastně funguje, ale i tak uvidíš, že to není raketová věda. Máš herní pole v nějakém stavu, zavoláš svou funkci, a ověříš, že vrátila to, co by měla.
+Nahlédni do souboru *test_piskvorky.py*. Možná teď ještě nebudeš rozumět do detailu, jak to všechno vlastně funguje, ale i tak uvidíš, že to není raketová věda. Máš herní pole v nějakém stavu, zavoláš svou funkci, a ověříš, že vrátila to, co by měla.
 
 ```python
 assert tah("--------------------", 10, "x") == "----------x---------"
