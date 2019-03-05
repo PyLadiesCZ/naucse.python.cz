@@ -42,8 +42,8 @@ test_piskvorky.py::test_tah_pocitace_skoro_plne_konec_2 FAILED
 Každé _FAILED_ znamená jednu chybu: jeden test, který neprošel. Protože jsi zatím nic nenapsala, je problém úplně ve všem. To se ale změní, jakmile splníš první úkol: zařídíš, aby funkce _vyhodnot_ rozpoznala, že vyhrál hráč s křížky.
 
 ```
-test_piskvorky.py::test_vyhodnot_vyhra_o FAILED
 test_piskvorky.py::test_vyhodnot_vyhra_x PASSED
+test_piskvorky.py::test_vyhodnot_vyhra_o FAILED
 test_piskvorky.py::test_vyhodnot_remiza FAILED
 …
 test_piskvorky.py::test_tah_pocitace_skoro_plne_konec_2 FAILED
