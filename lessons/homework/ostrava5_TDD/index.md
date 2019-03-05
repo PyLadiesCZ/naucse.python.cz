@@ -6,7 +6,7 @@ Poté, co ses naučila pracovat s [řetězci][str] a psát [vlastní funkce][de
 
 Testování ti pomůže ověřit, že tvůj program funguje, jak má. Neboj se však nic, všechno to složitější jsme zatím napsali za tebe. Ty tak můžeš postupovat podle zadání domácích projektů a testy ti spuštěním jednoho jednoduchého příkazu ukážou, jak moc blízko jsi dokončení programu.
 
-Toto je bonusový materiál, který může udělat domácí úkol zajímavější a naučit tě při tom opět něco nového. Pokud máš ale plné ruce práce se zvládání aktuální látky. klidně postupuj jen podle zadání domácích projektů a na testování se společně podíváme později.
+Toto je bonusový materiál, který může udělat domácí úkol zajímavější a naučit tě při tom opět něco nového. Pokud máš ale plné ruce práce se zvládáním aktuální látky, klidně postupuj jen podle zadání domácích projektů a na testování se společně podíváme později.
 
 ## Jak na to? ##
 
