@@ -63,7 +63,7 @@ test_piskvorky.py::test_tah_pocitace_skoro_plne_konec_2 PASSED
 
 Proč jen skoro? Některé věci testovat moc dobře nejdou, nebo by to bylo pro tebe v tuto chvíli moc složité.
 
-* Jednou takovou věcí je zadání od uživatele. Funkci _tah_hrace_ proto pytest netestuje. To pak platí i pro celé jádro hry, funkci _piskvorky1d_, která právě funkci _tah_hrace_ používá, když je hráč na tahu.
+* Jednou takovou věcí je zadání od uživatele. Funkci *tah_hrace* proto pytest netestuje. To pak platí i pro celé jádro hry, funkci _piskvorky1d_, která právě funkci *tah_hrace* používá, když je hráč na tahu.
 * Druhou věcí, která není testy pokryta, je vypisování na obrazovku. Tedy všechna zvolání o chybách či stavu hry.
 
 Tyto věci musíš ověřit ručně. To by ale nemuselo být tak hrozné: programuješ hru a testováním si rovnou i hraješ.
