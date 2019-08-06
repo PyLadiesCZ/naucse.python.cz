@@ -1,5 +1,5 @@
 title: Začátečnický kurz PyLadies
-subtitle: Ostrava – jaro 2019
+subtitle: Ostrava – podzim 2019
 time: 17:00–19:00
 default_time:
   start: '17:00'
@@ -24,7 +24,7 @@ vars:
 plan:
 - title: Instalace
   slug: install
-  date: 2019-02-05
+  date: 2019-09-04
   materials:
     - url: http://pyladies.cz/v1/s001-install/uvod-ostrava.html
       title: Úvodní prezentace
@@ -45,7 +45,7 @@ plan:
       type: homework
 - title: První program
   slug: hello-world
-  date: 2019-02-12
+  date: 2019-09-11
   materials:
     - lesson: beginners/hello-world
       type: lesson
@@ -72,7 +72,7 @@ plan:
       type: lesson
 - title: Cykly
   slug: loops
-  date: 2019-02-19
+  date: 2019-09-18
   materials:
     - lesson: beginners/functions
       type: lesson
@@ -90,7 +90,7 @@ plan:
       type: lesson
 - title: Jeden nový cyklus a procvičování
   slug: while
-  date: 2019-02-26
+  date: 2019-09-25
   materials:
     - lesson: beginners/while
       type: lesson
@@ -106,7 +106,7 @@ plan:
       type: lesson
 - title: Funkce a řetězce
   slug: def-str
-  date: 2019-03-05
+  date: 2019-10-02
   materials:
     - lesson: beginners/def
       type: lesson
@@ -128,7 +128,7 @@ plan:
       type: lesson
 - title: Soubory a výjimky
   slug: file
-  date: 2019-03-12
+  date: 2019-10-09
   materials:
     - lesson: beginners/exceptions
       type: lesson
@@ -143,7 +143,7 @@ plan:
       type: lesson
 - title: Seznamy
   slug: list
-  date: 2019-03-19
+  date: 2019-10-16
   materials:
     - lesson: beginners/list
       type: lesson
@@ -161,7 +161,7 @@ plan:
       type: lesson
 - title: Slovníky
   slug: dict
-  date: 2019-03-26
+  date: 2019-10-23
   materials:
     - lesson: beginners/dict
       type: lesson
@@ -182,7 +182,7 @@ plan:
       type: lesson
 - title: Moduly a testování
   slug: modules-testing
-  date: 2019-04-02
+  date: 2019-10-30
   materials:
     - lesson: beginners/modules
       type: lesson
@@ -198,7 +198,7 @@ plan:
       url: https://www.dropbox.com/request/xApsz9zKYxknLpJf8Qml
 - title: Grafika
   slug: pyglet
-  date: 2019-04-09
+  date: 2019-11-06
   materials:
     - lesson: intro/pyglet
       type: lesson
@@ -216,7 +216,7 @@ plan:
       url: https://www.dropbox.com/request/3e5TNn6NBlfI7SD5GFrW
 - title: Třídy
   slug: class
-  date: 2019-04-16
+  date: 2019-11-13
   materials:
     - lesson: beginners/class
       type: lesson
@@ -229,7 +229,7 @@ plan:
       type: lesson
 - title: Dědičnost
   slug: inheritance
-  date: 2019-04-23
+  date: 2019-11-20
   materials:
     - lesson: beginners/inheritance
       type: lesson
@@ -240,7 +240,7 @@ plan:
       url: https://www.dropbox.com/request/AqCwMoyF9FuyI6Sinwu0
 - title: Závěrečný projekt
   slug: asteroids
-  date: 2019-04-30
+  date: 2019-11-27
   materials:
     - lesson: projects/asteroids
       type: lesson
@@ -254,11 +254,11 @@ plan:
       type: cheatsheet
 - title: Pokračování závěrečného projektu
   slug: asteroids2
-  date: 2019-05-07
+  date: 2019-12-04
   description: V této lekci budeme pokračovat v dalších fázích závěrečného projektu.
   materials: []
 - title: Závěrečná hodina
   slug: asteroids3
-  date: 2019-05-14
+  date: 2019-12-11
   description: Během závěrečné hodiny si předáme diplomy a seznámíme se s možnostmi pokračování studia
   materials: []
