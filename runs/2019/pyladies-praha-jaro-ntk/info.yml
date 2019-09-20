@@ -31,7 +31,7 @@ plan:
     - lesson: beginners/install-editor
       type: lesson
     - title: Domácí projekty
-      url: https://projekty.pyladies.cz/
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=install
       type: homework
     - title: Tahák na klávesnici (PDF)
       url: https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf
@@ -54,6 +54,9 @@ plan:
     lesson: beginners/and-or
     vars:
       bonus: true
+  - title: Domácí projekty
+    url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=hello
+    type: homework
 - base: loops
   date: 2019-03-21
   materials:
@@ -64,6 +67,9 @@ plan:
     - title: Tahák s užitečnými funkcemi
       url: https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf
       type: cheatsheet
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=loops
+      type: homework
 - slug: while-functions
   title: While & Vlastní funkce
   date: 2019-03-28
@@ -72,6 +78,9 @@ plan:
       type: lesson
     - lesson: beginners/def
       type: lesson
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=while-functions
+      type: homework
 - slug: strings
   title: Řetězce
   date: 2019-04-04
@@ -81,6 +90,9 @@ plan:
     - title: Řetězcový tahák
       url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
       type: cheatsheet
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=strings
+      type: homework
 - slug: practice
   title: Procvičování & soubory
   date: 2019-04-11
@@ -90,8 +102,21 @@ plan:
       type: special
     - lesson: beginners/files
       type: lesson
-- base: list
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=practice
+      type: homework
+- slug: list
+  title: Seznamy
   date: 2019-04-18
+  materials:
+    - lesson: beginners/list
+    - lesson: beginners/tuple
+    - title: Tahák na seznamy
+      url: https://pyvec.github.io/cheatsheets/lists/lists-cs.pdf
+      type: cheatsheet
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=list
+      type: homework
 - base: dict
   date: 2019-04-25
   materials:
@@ -100,9 +125,23 @@ plan:
     - title: Slovníkový tahák
       url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
       type: cheatsheet
-- base: tests
-  date: 2019-05-02
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=dict
+      type: homework
+- slug: tests
   title: Výjimky, moduly & testování
+  date: 2019-05-02
+  materials:
+    - lesson: beginners/exceptions
+    - lesson: beginners/modules
+    - lesson: beginners/testing
+    - lesson: beginners/circular-imports
+    - title: Výjimkový tahák
+      url: https://pyvec.github.io/cheatsheets/exceptions/exceptions-cs.pdf
+      type: cheatsheet
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=tests
+      type: homework
 - base: class
   title: Opakování & Třídy
   date: 2019-05-09
@@ -112,14 +151,30 @@ plan:
     - title: Tahák na třídy
       url: https://pyvec.github.io/cheatsheets/classes/classes.pdf
       type: cheatsheet
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=class
+      type: homework
 - slug: inheritance
   title: Třídy & Dědičnost
   date: 2019-05-16
   materials:
     - lesson: beginners/inheritance
       type: lesson
-- base: pyglet
+- slug: pyglet
+  title: Grafika
   date: 2019-05-23
+  materials:
+    - lesson: intro/pyglet
+    - lesson: projects/pong
+    - title: Kód celé hry Pong
+      type: link
+      url: http://pyladies.cz/v1/s012-pyglet/pong.py
+    - title: Tahák na Pyglet
+      url: https://pyvec.github.io/cheatsheets/pyglet/pyglet-basics-cs.pdf
+      type: cheatsheet
+    - title: Domácí projekty
+      url: https://projekty.pyladies.cz/session?course=pyladies-2019-praha-jaro-ntk&session=pyglet
+      type: homework
 - slug: data
   title: Datová analýza
   date: 2019-05-30
