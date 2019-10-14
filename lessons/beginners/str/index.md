@@ -348,7 +348,7 @@ Ale nepřežeň to!
 Většinou je program přehlednější, když si každou vypisovanou hodnotu zvlášť
 pojmenuješ.
 
-## Metoda `format`
+### Metoda `format`
 
 Dříve se používala k formátování řetězců metoda `format`. Je dobré o ní vědět,
 kdybys na ni v nějakém starším kódu narazila. Tato metoda v rámci řetězce
@@ -372,6 +372,7 @@ print(vypis)
 ```
 
 
+Formátování se používá skoro všude, kde je potřeba „hezky“ vypsat nějakou hodnotu.
 
 ## Sekání řetězců
 
