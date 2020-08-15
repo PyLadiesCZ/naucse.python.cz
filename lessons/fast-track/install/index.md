@@ -19,7 +19,7 @@ Následují zrychlené instrukce; předpokládám, že Python (3.6 a vyšší)
 už máš nainstalovaný a že znáš základy práce
 s [příkazovou řádkou]({{ lesson_url('beginners/cmdline') }}).
 
-Podrobný postup instalace Pythonu a vytvoření prostředí je je popsán
+Podrobný postup instalace Pythonu a vytvoření prostředí je popsán
 v příslušné [lekci pro začátečníky]({{ lesson_url('beginners/install') }}).
 Modul `venv` je součást [standardní knihovny](https://docs.python.org/3/library/venv.html).
 

@@ -41,7 +41,7 @@ Na řádku za zavináčem může být libovolný výraz, který po vyhodnocení 
 funkci, která má požadované rozhraní.
 
 
-## Přiklad 0 – registrace funkcí
+## Příklad 0 – registrace funkcí
 
 Jak už při programování bývá zvykem, náš první dekorátor nás pozdraví.
 
@@ -281,7 +281,7 @@ fib(x)
 >>>
 ```
 
-### Předávání všech argumentů.
+### Předávání všech argumentů
 
 Při psaní dekorátorů je dobré myslet na to, jak moc univerzální by měly být.
 Například náš `co_se_deje` momentálně funguje pouze pro funkce, které mají
