@@ -103,6 +103,9 @@ plan:
       type: lesson
     - lesson: beginners/local-variables
       type: lesson
+    - lesson: bagineers/recursion
+      type: lesson
+      title: Rekurze (bonus)
 
     - lesson: beginners/str
       type: lesson
