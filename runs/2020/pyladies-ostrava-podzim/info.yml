@@ -55,6 +55,7 @@ plan:
     - lesson: beginners/comparisons
       type: lesson
     - lesson: beginners/and-or
+      type: lesson
     - title: Společná večeře PyLadies ve Slezské P.U.O.R.
       type: special
       url: http://slezska.com/
