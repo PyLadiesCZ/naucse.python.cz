@@ -165,8 +165,6 @@ plan:
     - title: Ukázka jednoduchého API
       type: lesson
       url: http://pyladies.cz/v1/s011-dicts/simple-api.html
-    - lesson: projects/github-api
-      type: lesson
     - title: Slovníkový tahák
       url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
       type: cheatsheet
