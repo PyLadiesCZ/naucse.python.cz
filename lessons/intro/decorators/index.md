@@ -467,3 +467,17 @@ def stahni():
     odpoved.raise_for_status()
     return "OK"
 ```
+
+## Úkoly na procvičení
+1. Napiš dekorátor, který dekorovanou funkci doplní o výpis názvu funkce
+a argumentů. To je vhodné například pro ladění programu, abychom věděli, kdy
+a jak se funkce zavolá.
+2. Napiš dekorátor, který změří čas, po který funkce pracuje a výsledek vypíše.
+To je také užitečné pro ladění, pokud nám přijde, že nějaká funkce trvá moc
+dlouho a chceme si to ověřit. Možno nakombinovat s prvním dekorátorem.
+3. Napiš libovolný vlastní dekorátor.
+4. Pokud ve funkci dojde k výjimce, dekorátor dodá odkaz na Google, který tu
+konkrétní chybu vyhledá.
+5. Napiš dekorátor, který zakáže `print`. Pokud bude dekorovaná funkce něco
+vypisovat printem, tento výpis se neukáže, ale funkce bude dále normálně
+fungovat a vracet výsledky.
