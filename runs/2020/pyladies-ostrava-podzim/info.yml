@@ -56,9 +56,12 @@ plan:
       type: lesson
     - lesson: beginners/and-or
       type: lesson
-    - title: Společná večeře PyLadies ve Slezské P.U.O.R.
+    - title: Společná večeře PyLadies v Jack's Burger Bar
       type: special
-      url: http://slezska.com/
+      url: http://www.jacksburgerbar.cz/ostrava/
+    - title: Tahák na debuggování (PDF)
+      url: https://pyvec.github.io/cheatsheets/errors/errors-cs.pdf
+      type: cheatsheet
     # - lesson: feedback/ostrava2
     #   type: lesson
 
