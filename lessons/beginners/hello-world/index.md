@@ -93,8 +93,8 @@ zkušenějšího programátora. <!-- XXX: where to direct people? -->
 > ```
 >
 > Je ale zvykem dodržovat určitá pravidla.
-> Jako v češtině se po otvírací závorce a za
-> ozavírací závorkou nepíše mezera.
+> Jako v češtině se po otvírací závorce a před
+> uzavírací závorkou nepíše mezera.
 > Na rozdíl od češtiny ale mezeru nepiš ani mezi `print` a závorkou.
 > „Správně“ je tedy:
 >
