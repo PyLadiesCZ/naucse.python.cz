@@ -62,8 +62,8 @@ plan:
     - title: Tahák na debuggování (PDF)
       url: https://pyvec.github.io/cheatsheets/errors/errors-cs.pdf
       type: cheatsheet
-    # - lesson: feedback/ostrava2
-    #   type: lesson
+    - lesson: feedback/ostrava2
+      type: lesson
 
 - title: Cykly
   slug: loops
