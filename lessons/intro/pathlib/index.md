@@ -485,11 +485,11 @@ V šabloně můžeš použít `*`, které odpovídá 0 a více písmenům
 
 ```pycon
 >>> # Soubory končící na ".txt"
->>> list(base.glob('*.txt'))
+>>> list(zaklad.glob('*.txt'))
 [PosixPath('soubory/hlad.txt'), PosixPath('soubory/ententyky.txt')]
 
 >>> # Soubory, které mají ve jméně tečku
->>> list(base.glob('*.*'))
+>>> list(zaklad.glob('*.*'))
 [PosixPath('soubory/hrad.jpeg'),
  PosixPath('soubory/hrad.attribution'),
  PosixPath('soubory/.gitignore'),
@@ -504,7 +504,7 @@ V šabloně můžeš použít `*`, které odpovídá 0 a více písmenům
 
 ```pycon
 >>> # Slovo na čtyři, první je `h` a třetí `a`
->>> list(base.glob('h?a?.*'))
+>>> list(zaklad.glob('h?a?.*'))
 [PosixPath('soubory/hrad.jpeg'),
  PosixPath('soubory/hrad.attribution'),
  PosixPath('soubory/hlad.txt'),
@@ -515,9 +515,9 @@ V šabloně můžeš použít `*`, které odpovídá 0 a více písmenům
 Případně jde použít výčet písmen v hranatých závorkách, viz modul fnmatch.
 
 ```pycon
->>> list(base.glob('h?a[zd].????'))
+>>> list(zaklad.glob('h?a[zd].????'))
 [PosixPath('soubory/hrad.jpeg'), PosixPath('soubory/hraz.jpeg')]
->>> list(base.glob('[!hv]*'))
+>>> list(zaklad.glob('[!hv]*'))
 [PosixPath('soubory/.gitignore'),
  PosixPath('soubory/kolecko.png'),
  PosixPath('soubory/texty'),
@@ -530,7 +530,7 @@ Dvě hvězdičky odpovídají základnímu adresáři a všem jeho podadresář�
 pod-podadresářům, pod-pod-podadresářům atd.
 
 ```pycon
->>> list(base.glob('**'))
+>>> list(zaklad.glob('**'))
 [PosixPath('soubory'),
  PosixPath('soubory/texty'),
  PosixPath('soubory/texty/lidove'),
@@ -540,7 +540,7 @@ pod-podadresářům, pod-pod-podadresářům atd.
 S pomocí ** se často hledají soubory s danou příponou:
 
 ```pycon
->>> list(base.glob('**/*.txt'))
+>>> list(zaklad.glob('**/*.txt'))
 [PosixPath('soubory/hlad.txt'),
  PosixPath('soubory/ententyky.txt'),
  PosixPath('soubory/texty/vodnik.txt'),
