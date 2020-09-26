@@ -187,7 +187,7 @@ PosixPath('/home/janca/Documents/archiv.tar.gz')
 >>> cesta.suffix
 '.gz'
 
->>> # Věchny přípony
+>>> # Všechny přípony
 >>> cesta.suffixes
 ['.tar', '.gz']
 
