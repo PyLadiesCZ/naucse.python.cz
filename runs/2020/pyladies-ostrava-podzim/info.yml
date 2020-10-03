@@ -101,6 +101,15 @@ plan:
   slug: def-str
   date: 2020-10-06
   materials:
+    - lesson: beginners/str
+      type: lesson
+    - lesson: beginners/str-index-slice
+      type: lesson
+    - lesson: beginners/str-methods
+      type: lesson
+    - lesson: beginners/fstring
+      type: lesson
+      
     - lesson: beginners/def
       type: lesson
     - lesson: beginners/nested-traceback
@@ -110,15 +119,7 @@ plan:
     - lesson: beginners/recursion
       type: lesson
       title: Rekurze (bonus)
-
-    - lesson: beginners/str
-      type: lesson
-    - lesson: beginners/str-index-slice
-      type: lesson
-    - lesson: beginners/str-methods
-      type: lesson
-    - lesson: beginners/fstring
-      type: lesson
+      
     - title: Řetězcový tahák
       url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
       type: cheatsheet
