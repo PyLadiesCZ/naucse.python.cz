@@ -94,8 +94,8 @@ plan:
     - title: Úkoly k procvičování
       type: link
       url: http://pyladies.cz/v1/s003-looping/ostrava/ukoly-k-procvicovani/ukoly.html
-    # - lesson: feedback/ostrava4
-    #   type: lesson
+    - lesson: feedback/ostrava4
+      type: lesson
 
 - title: Funkce a řetězce
   slug: def-str
@@ -109,7 +109,7 @@ plan:
       type: lesson
     - lesson: beginners/fstring
       type: lesson
-      
+
     - lesson: beginners/def
       type: lesson
     - lesson: beginners/nested-traceback
@@ -119,7 +119,7 @@ plan:
     - lesson: beginners/recursion
       type: lesson
       title: Rekurze (bonus)
-      
+
     - title: Řetězcový tahák
       url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
       type: cheatsheet
