@@ -84,15 +84,23 @@ plan:
     - title: Úkoly k procvičování
       type: link
       url: http://pyladies.cz/v1/s003-looping/olomouc/ukoly-k-procvicovani/ukoly.html
-- title: Funkce a řetězce
+- title: Řetězce a funkce
   slug: def-str
   date: 2020-10-08
   materials:
-    - lesson: beginners/def
-      type: lesson
     - lesson: beginners/str
       type: lesson
+    - lesson: beginners/str-index-slice
+      type: lesson
+    - lesson: beginners/str-methods
+      type: lesson
     - lesson: beginners/fstring
+      type: lesson
+    - lesson: beginners/def
+      type: lesson
+    - lesson: beginners/nested-traceback
+      type: lesson
+    - lesson: beginners/local-variables
       type: lesson
     - title: Řetězcový tahák
       url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
