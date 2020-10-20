@@ -141,8 +141,8 @@ plan:
     - title: Výjimkový tahák
       url: https://pyvec.github.io/cheatsheets/exceptions/exceptions-cs.pdf
       type: cheatsheet
-    # - lesson: feedback/ostrava6
-    #   type: lesson
+    - lesson: feedback/ostrava6
+      type: lesson
 
 - title: Seznamy
   slug: list
