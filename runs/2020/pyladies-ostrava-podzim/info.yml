@@ -185,8 +185,8 @@ plan:
       type: lesson
     - lesson: beginners/testing
       type: lesson
-    # - lesson: feedback/ostrava9
-    #   type: lesson
+    - lesson: feedback/ostrava9
+      type: lesson
 
 - title: Grafika
   slug: pyglet
