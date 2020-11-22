@@ -266,7 +266,7 @@ Nevýhoda čistých *coroutines* spočívá v tom, že na každé zavolání
 takové funkce lze použít jen jeden `await`.
 Výsledek se nikam neukládá, jen se po skončení jednou předá.
 Druhý `await` pro stejné zavolání asynchronní funkce skončí s chybou.
-Zkuste si to – v kódu výše přidejte daší řádek s `await coroutine`:
+Zkuste si to – v kódu výše přidejte další řádek s `await coroutine`:
 
 ```python
     print('The result is:', (await coroutine))
@@ -467,7 +467,7 @@ a tedy je možné v tomto okamžiku předat kontrolu jiné úloze, ale také to,
 resp. ukončení práce s `ClientSession` správně ukončeno.
 
 Zajímavý je i rozdíl v získávání obsahu odpovědi od serveru. `requests` v rámci volání metody `get`
-provede stažení hlaviček i obsahu odpovědi a její dekódování — vše najednou. `aiohttp` stáhne v rámcí volání `get` jen
+provede stažení hlaviček i obsahu odpovědi a její dekódování — vše najednou. `aiohttp` stáhne v rámci volání `get` jen
 hlavičky odpovědi od serveru a stažení obsahu odpovědi je zcela samostatná asynchronní operace.
 
 Výstup asynchronního programu je následující:
