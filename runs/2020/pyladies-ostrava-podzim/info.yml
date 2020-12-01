@@ -212,8 +212,8 @@ plan:
       type: lesson
     - lesson: beginners/inheritance
       type: lesson
-    # - lesson: feedback/ostrava11
-    #   type: lesson
+    - lesson: feedback/ostrava11
+      type: lesson
     # - lesson: feedback/ostrava12
     #   type: lesson
 
